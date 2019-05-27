@@ -1,0 +1,17 @@
+agenda de telefon
+
+persoane:
+ id ( numar, mama ma-tii )
+ nume ( string, string, everything is strng )
+ telefon ( pot fi mai multe )
+ email ( pot fi mai multe )
+
+functionalitati
+  adaugare persoana
+  stergere persoana
+  modificare persoana
+  cautare persoana/persoane dupa:
+    nume sau bucati din nume
+    id
+    telefon
+    email

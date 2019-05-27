@@ -1,0 +1,24 @@
+sa se implementeze o agenda
+aceasta trebuie sa contina:
+  - persoane
+    - id (cnp sau ceva)
+    - nume prenume
+    - data nasterii
+    - numar de telefon
+    - adresa de email
+  - evenimente
+    - id
+    - tip
+      - zile de nastere, legate de persoana
+    - data la care trebuie sa se intample(deadline)
+    - cu cat timp inainte si de cate ori sa ma anunte
+    - mesaj
+    - repetabilitate (adica din cat in cat timp sa se repete, incepand de la o anumita data)
+    - numar de repetari ( implica ce ii mai sus, poate fi un numar, sau indefinit)
+
+functionalitati:
+  - adaugare persoane
+  - editare persoane ( inclusiv evenimentul de zile de nastere )
+  - adaugare eveniment
+  - modificare eveniment
+  - alerte la evenimente
