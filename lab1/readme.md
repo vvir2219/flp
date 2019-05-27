@@ -229,25 +229,25 @@ from the programming language:
 
 we have to have interface logger, class stdlogger, class filelogger, so:
 
-interface Logger {
-    string log_level;
-    void log("message");
+    interface Logger {
+        string log_level;
+        void log("message");
+        
+        static Logger fromString(string str);
+    }
+
+    class StandardLogger : Logger {
+        // implementation
+    }
     
-    static Logger fromString(string str);
-}
+    class FileLogger : Logger {
+        File output_file;
+        // implementation
+    }
 
-class StandardLogger : Logger {
-    // implementation
-}
-
-class FileLogger : Logger {
-    File output_file;
-    // implementation
-}
-
-define arguments : [
-    logger : Logger ( optional )
-]
+    define arguments : [
+        logger : Logger ( optional )
+    ]
 
 from the command line:
 
