@@ -20,8 +20,8 @@ class Agenda
 public:
     void adauga(Persoana p);
     void sterge(size_t id);
-    void modifica(size_t id, string nume, string nr_telefon, string email);
-    vector<Persoana> filtreaza(ssize_t id, string nume, string nr_telefon, string email);
+    void modifica(size_t id, string nume = "", string nr_telefon = "", string email = "");
+    vector<Persoana> filtreaza(ssize_t id = -1, string nume = "", string nr_telefon = "", string email = "");
 
 private:
     

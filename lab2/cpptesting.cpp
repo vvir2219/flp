@@ -21,7 +21,7 @@ void test_agenda()
         cout << "Id: " << p.id << "\n"
              << "Nume: " << p.nume << "\n"
              << "Nr telefon: " << p.nr_telefon << "\n"
-             << "Email: " << p.email << "\n"
+             << "Email: " << p.email << "\n";
     }
 }
 
